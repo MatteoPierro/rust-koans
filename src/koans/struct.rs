@@ -89,5 +89,6 @@ fn dot_merging() {
     let rich = Account { balance: 1000000.00, ..broke };
 
     assert_eq!(rich.holder, "Morgan Stanley");
+    assert_eq!(rich.account_number, "00021948523756312");
     assert_eq!(rich.balance, 1000000.00);
 }
